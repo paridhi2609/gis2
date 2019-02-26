@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">gis2</string>
+    <string name="Home">Home</string>
+    <string name="Contact">Contact</string>
+    <string name="Logout">Logout</string>
+    <string name="Edit_Details">Edit Details</string>
+    <string name="spinner_title">soil type</string>
+
+    <string-array name="soilTypes">
+            <item>Alluvial</item>
+            <item>Red Soil</item>
+            <item>Black Soil</item>
+            <item>Dessert Soil</item>
+            <item>Laterite Soil</item>
+            <item>Saline Soil</item>
+            <item>Marshy Soil</item>
+            <item>Forest Soil</item>
+    </string-array>
+
+</resources>

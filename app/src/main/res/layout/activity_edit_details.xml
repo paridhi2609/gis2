@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/soil"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Type of Soil"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/soil_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:dropDownWidth="200dp"
+        android:entries="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="get location automatically"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/waterContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water content"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getwaterContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="get water content automatically"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

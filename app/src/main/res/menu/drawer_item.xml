@@ -7,6 +7,10 @@
             android:title="@string/Home"
             android:icon="@drawable/ic_home_black_24dp">40sp</item>
         <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_black_24dp"></item>
+        <item
             android:id="@+id/Edit_Details"
             android:title="@string/Edit_Details"
             android:icon="@drawable/ic_edit_black_24dp">25sp</item>

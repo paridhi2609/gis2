@@ -24,15 +24,19 @@
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
         <ImageView
+            android:paddingTop="50dp"
             android:id="@+id/agriculture"
+            android:src="@drawable/agriculture"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"/>
 
         <Button
             android:id="@+id/news"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="News" />
+            android:text="News"
+            />
 
         <Button
             android:id="@+id/updates"
